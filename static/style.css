@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=yeon+Sung|ZCOOL+QingKe+HuangYou&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
 #navbar{
     background-color: #d43b3b;
     font-family: 'Yeon Sung' ;
-    padding: 13px, 14px;
+    padding: 100px, 100px;
 }
 #navbar ul{
     display: flex;
     flex-direction: row;
-     justify-content: center;
+    justify-content: center;
     align-items: center;
 }
 #navbar li{
@@ -26,7 +32,7 @@
 #navbar ul{
     display: flex;
     flex-direction: row;
-     justify-content: center;
+    justify-content: center;
     align-items: center;
 }
 #navbar li{
@@ -39,7 +45,17 @@
 #navbar li a:hover{
     color: black;  
 }
-
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+}
 #introSection{
     color: white;
     display: flex;
@@ -56,11 +72,67 @@
     font-size: 52px;
     padding: 5px;
 }
+#missionSection{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 326px;; 
+    width: 67%;
+    margin: auto;
+}
+.hd{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center; 
+    display: block;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 100%;
+    margin: 30px;
+    height: 250px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img img{
+    height: inherit; 
+}
+.card-img img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin: 10px auto;
+}
+
 #sponsorsSection{
     height: 300px;
     background-color: #fbd6d6c7;
 }
 #footer{
-    background-color: black;
+    background-color: rgb(210, 219, 224);
+    text-align: center;
     height: 100px;
 }
+#sponsors{
+          height: 120px;
+          max-width: 100px;
+          margin: auto
+}
+spImage{
+          height: 80px;
+          margin: 20px;
+}
+

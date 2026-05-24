@@ -1,28 +1,62 @@
 doctype html
 html
   head
-   title  Sam's Dance Academy
-   style
-    include ../static/style.css
+    title Sam's Dance Academy
+    link(rel="stylesheet", href="/static/style.css")
+
   body
     nav#navbar
-        ul
-            div#logo
-                img(src="/static/img/logo.png")
-                | HDA
-            li #[a(href="/") Home]
-            li #[a(href="/") About]
-            li #[a(href="/") Services]
-            li #[a(href="/") Class Info]
-            li #[a(href="/") Contact Us]
+      ul
+        li#logo
+          img(src="/static/logo.png")
+        li
+          a(href="/") Home
+        li
+          a(href="/") About
+        li
+          a(href="/") Services
+        li
+          a(href="/") Class Info
+        li
+          a(href="/") Contact Us
+
     section#introSection
-        div Welcome to Sam's Dance Academy
-        div.small Eat Sleep Dance Repeat
+      div.hd
+        h2 Our Mission 
+      div.hd
+      div Welcome to Sam's Dance Academy
+      div.small Eat Sleep Dance Repeat
+    section#missionSection
+      div.card
+        h3 Dance Perfection
+        div.card-box
+          div.card-img
+            img(src="/static/1.png")
+          div.card-content
+            p This is the best dance academy of the universe
+
+      div.card
+        h3 Dance the way you like
+        div.card-box
+          div.card-img
+            img(src="/static/2.png")
+          div.card-content
+            p This is the best dance academy of the universe
+
+      div.card
+        h3 Expert Teaching
+        div.card-box
+          div.card-img
+            img(src="/static/3.png")
+          div.card-content
+            p This is the best dance academy of the universe
+
     section#sponsorsSection
-        h2 Our Sponsors
+      div.hd
+        h2 Our Sponsor
+      div.hd
+        img(src="/static/img1.png", alt="Sponsor Image", class="spImage")
+        img(src="/static/img2.png", alt="Sponsor Image", class="spImage")
+        img(src="/static/img3.png", alt="Sponsor Image", class="spImage")
     footer#footer
-        | our footer here
-    h1 My Site
-    p Welcome to my super good site
-    script
-      include ../static/index.js
+      | Copyright 2026 SamDanceAcademy.com  All rights reserved

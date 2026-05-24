@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block content
+    section#introSection
+        div Welcome to Sam's Dance Academy
+        div.small Eat Sleep Dance Repeat
+        div.hd
+            h2 Our Mission
+
+    section#missionSection
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/1.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/2.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/3.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+    section#sponsorsSection
+        div.hd
+            h2 Our Sponsor
+        div.hd
+            img(src="/static/img1.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img2.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/img3.png", alt="Sponsor Image", class="spImage")
